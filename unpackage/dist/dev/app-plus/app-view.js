@@ -252,90 +252,83 @@ var render = function() {
         { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
         [
           _c(
-            "v-uni-view",
-            { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
-            [
-              _c(
-                "v-uni-button",
-                {
-                  attrs: { _i: 6 },
-                  on: {
-                    click: function($event) {
-                      return _vm.$handleViewEvent($event)
-                    }
-                  }
-                },
-                [_vm._v("◎")]
-              ),
-              _c(
-                "v-uni-button",
-                {
-                  attrs: { _i: 7 },
-                  on: {
-                    click: function($event) {
-                      return _vm.$handleViewEvent($event)
-                    }
-                  }
-                },
-                [_vm._v("↑")]
-              ),
-              _c(
-                "v-uni-button",
-                {
-                  attrs: { _i: 8 },
-                  on: {
-                    click: function($event) {
-                      return _vm.$handleViewEvent($event)
-                    }
-                  }
-                },
-                [_vm._v("=")]
-              )
-            ],
-            1
+            "v-uni-button",
+            {
+              attrs: { _i: 5 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [_vm._v("◎")]
           ),
           _c(
-            "v-uni-view",
-            { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
-            [
-              _c(
-                "v-uni-button",
-                {
-                  attrs: { _i: 10 },
-                  on: {
-                    click: function($event) {
-                      return _vm.$handleViewEvent($event)
-                    }
-                  }
-                },
-                [_vm._v("←")]
-              ),
-              _c(
-                "v-uni-button",
-                {
-                  attrs: { _i: 11 },
-                  on: {
-                    click: function($event) {
-                      return _vm.$handleViewEvent($event)
-                    }
-                  }
-                },
-                [_vm._v("↓")]
-              ),
-              _c(
-                "v-uni-button",
-                {
-                  attrs: { _i: 12 },
-                  on: {
-                    click: function($event) {
-                      return _vm.$handleViewEvent($event)
-                    }
-                  }
-                },
-                [_vm._v("→")]
-              )
-            ],
-            1
+            "v-uni-button",
+            {
+              attrs: { _i: 6 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [_vm._v("↑")]
+          ),
+          _c(
+            "v-uni-button",
+            {
+              attrs: { _i: 7 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [_vm._v("=")]
+          )
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+        [
+          _c(
+            "v-uni-button",
+            {
+              attrs: { _i: 9 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [_vm._v("←")]
+          ),
+          _c(
+            "v-uni-button",
+            {
+              attrs: { _i: 10 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [_vm._v("↓")]
+          ),
+          _c(
+            "v-uni-button",
+            {
+              attrs: { _i: 11 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [_vm._v("→")]
           )
         ],
         1
@@ -432,7 +425,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.content {\n\tdisplay: -webkit-box;\n\tdisplay: -webkit-flex;\n\tdisplay: flex;\n\t-webkit-box-orient: vertical;\n\t-webkit-box-direction: normal;\n\t-webkit-flex-direction: column;\n\t        flex-direction: column;\n\t-webkit-box-align: center;\n\t-webkit-align-items: center;\n\t        align-items: center;\n\t-webkit-box-pack: center;\n\t-webkit-justify-content: center;\n\t        justify-content: center;\n}\n.row {\n\tdisplay: -webkit-box;\n\tdisplay: -webkit-flex;\n\tdisplay: flex;\n\t-webkit-box-orient: horizontal;\n\t-webkit-box-direction: normal;\n\t-webkit-flex-direction: row;\n\t        flex-direction: row;\n\t-webkit-box-pack: center;\n\t-webkit-justify-content: center;\n\t        justify-content: center;\n}\n.black {\n\twidth: 15upx;\n\theight: 15upx;\n\tmargin-top: 5upx;\n\tmargin-right: 5upx;\n\tbackground-color: #555555;\n}\n.white {\n\twidth: 15upx;\n\theight: 15upx;\n\tmargin-top: 5upx;\n\tmargin-right: 5upx;\n\tbackground-color: #F1F1F1;\n}\nuni-button {\n\twidth: 100upx;\n\theight: 100upx;\n\tmargin-top: 10upx;\n\tmargin-left: 10upx;\n}\n", ""]);
+exports.push([module.i, "\n.content {\n\tdisplay: -webkit-box;\n\tdisplay: -webkit-flex;\n\tdisplay: flex;\n\t-webkit-box-orient: vertical;\n\t-webkit-box-direction: normal;\n\t-webkit-flex-direction: column;\n\t        flex-direction: column;\n\t-webkit-box-align: center;\n\t-webkit-align-items: center;\n\t        align-items: center;\n\t-webkit-box-pack: center;\n\t-webkit-justify-content: center;\n\t        justify-content: center;\n}\n.row {\n\tdisplay: -webkit-box;\n\tdisplay: -webkit-flex;\n\tdisplay: flex;\n\t-webkit-box-orient: horizontal;\n\t-webkit-box-direction: normal;\n\t-webkit-flex-direction: row;\n\t        flex-direction: row;\n\t-webkit-box-pack: center;\n\t-webkit-justify-content: center;\n\t        justify-content: center;\n}\n.block {\n\twidth: 8px;\n\theight: 8px;\n\tmargin-top: 2px;\n\tmargin-right: 2px;\n}\n.black {\n\tbackground-color: #555555;\n}\n.white {\n\tbackground-color: #F1F1F1;\n}\nuni-button {\n\twidth: 40px;\n\theight: 40px;\n\tpadding: 0;\n\tmargin: 10px 0 0 10px;\n\tfont-size: 16px;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1024,7 +1017,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n", ""]);
 // Exports
 module.exports = exports;
 
